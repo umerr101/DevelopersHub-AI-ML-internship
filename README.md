@@ -112,5 +112,32 @@ A comprehensive medical prediction project using the UCI Heart Disease dataset f
 - Shows importance of feature selection in healthcare
 - Demonstrates clinical model validation
 
+### Task 4: House Price Prediction
 
+**File:** `task4_house_price_prediction.ipynb`
+**Dataset:** `Housing.csv`
 
+A regression-based project to predict house prices using physical and amenity-based features from a structured housing dataset.
+
+**Objectives:**
+
+- Preprocess binary and categorical features for model compatibility
+- Perform exploratory data analysis to understand price distribution and feature relationships
+- Train and compare regression models (Linear Regression and Gradient Boosting)
+- Evaluate using MAE, RMSE, and R² metrics
+- Identify key features driving house price predictions
+
+**Skills Covered:**
+
+- Regression modeling and comparison
+- Feature encoding (binary mapping, ordinal encoding)
+- Model evaluation using error metrics and residual analysis
+- Feature importance extraction from ensemble models
+- Data preprocessing with StandardScaler
+
+**Model Performance:**
+
+- **Best Model:** Gradient Boosting Regressor
+- **R² Score:** Higher than Linear Regression (non-linear relationships captured)
+- **Top Features:** Area, Bathrooms, Air Conditioning
+- **Price Distribution:** Right-skewed — model performs best in mid-range price bands
